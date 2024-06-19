@@ -1,0 +1,27 @@
+# Logs
+/logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Optional eslint cache
+.eslintcache
+
+# Generated
+dist/
+
+# Trash files
+.DS_Store
+Thumbs.db
+
+# Do not ignore certain folders/files
+!.stylelintrc.js
+
+# ENV
+.env
+
+# Temp
+*.tmp
+.tmp/

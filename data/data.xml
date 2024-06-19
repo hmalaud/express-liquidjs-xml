@@ -1,0 +1,33 @@
+<document>
+  <block name="hero">
+    <value><![CDATA[ They're saying "x < y" & that "z > y" so I guess that means that z > x ]]></value>
+  </block>
+  <blocklist name="sections">
+    <block>
+      <value><![CDATA[lorem ipsum]]></value>
+    </block>
+    <block>
+      <value><![CDATA[sit dolor amet]]></value>
+    </block>
+  </blocklist>
+  <bool name="has-hero">
+    <value value="true" />
+  </bool>
+  <enum name="list">
+    <value value="liste valeur 1" id="value-1" />
+    <value value="liste valeur 2" id="value-2" />
+    <value value="liste valeur 3" id="value-3" />
+    <value default="value-1" />
+  </enum>
+  <text name="text">
+    <value><![CDATA[Mon texte]]></value>
+  </text>
+  <textlist name="texts">
+    <text>
+      <value><![CDATA[Mon azer texte]]></value>
+    </text>
+    <text>
+      <value><![CDATA[Mon autr Texte]]></value>
+    </text>
+  </textlist>
+</document>

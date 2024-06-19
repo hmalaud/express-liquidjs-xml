@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "shopify.theme-check-vscode",
+    "stylelint.vscode-stylelint",
+    "redhat.vscode-xml"
+  ]
+}

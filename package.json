@@ -1,0 +1,19 @@
+{
+  "name": "express-liquid-xml",
+  "version": "1.0.0",
+  "main": "./server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch-path=./ server/index.js"
+  },
+  "author": "Harold Malaud",
+  "dependencies": {
+    "express": "^4.14.0",
+    "liquidjs": "*",
+    "fast-xml-parser": "^4.4.0"
+  },
+  "devDependencies": {
+    "chalk": "^5.3.0",
+    "reload": "^3.2.1"
+  }
+}

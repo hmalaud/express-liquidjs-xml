@@ -1,0 +1,19 @@
+{% layout 'layout' %}
+
+<h1>{{ text }}</h1>
+{% for section in sections %}
+  <p>{{ section }}</p>
+{% endfor %}
+{% if has-hero %}
+  <p>Boolean says yes!</p>
+{% endif %}
+<p>{{ list }}</p>
+<ul>
+  {% for text in texts %}
+    <li>{{ forloop.index }}. {{ text }}</li>
+  {% endfor %}
+</ul>
+
+{% block 'footer' %}
+Copyright @ 2024, Harold
+{% endblock %}
